@@ -232,8 +232,7 @@ a {
     opacity: 0.35; }
   .business_page-block_01 .business_page-block_01-content {
     margin: auto;
-    margin-bottom: 55px;
-    padding-left: 48px; }
+    margin-bottom: 55px; }
   .business_page-block_01 .content-wrapper {
     position: relative;
     z-index: 2; }
@@ -371,7 +370,7 @@ a {
   .rest_page-header .logo .logo-link {
     color: #fff;
     font-size: 20px;
-    margin-right: 70px; }
+    margin-right: 40px; }
     .rest_page-header .logo .logo-link:hover {
       color: #ff6a44; }
   .rest_page-header .btn-white-border {
