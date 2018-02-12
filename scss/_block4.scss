@@ -1,0 +1,55 @@
+.business_page-block_04{
+  padding: 75px 0 80px;
+
+  .header_descr-text{
+    margin: 5px 0 40px;
+  }
+
+  .block_04-main_img{
+    width: 100%;
+  }
+
+  .block_04-items_wrapper{
+    justify-content: space-between;
+  }
+  .block_04-item{
+    text-align: center;
+    display: flex;
+    flex-basis: 33.3%;
+    flex-direction: column;
+
+    img{
+      width: 112px;
+      height: 112px;
+      margin: 0 auto ;
+    }
+  }
+  .block_04-items_wrapper {margin: -60px 10px 0}
+
+  .block_04-item_text{
+    font-size: 20px;
+    font-family: $bold_font;
+    margin-top: 30px;
+  }
+
+  .block_04-item-1{color: #13b86e;}
+  .block_04-item-2{color: #06a8ec;}
+  .block_04-item-3{color: #ff6a44;}
+}
+
+@media only screen and (max-width : 800px) {
+	.business_page-block_04{
+    .block_04-item_text{
+      font-size: 18px;
+      margin-top: 15px;
+    }
+	}
+}
+
+@media only screen and (max-width : 650px) {
+	.business_page-block_04{
+    .block_04-items_wrapper{
+      flex-direction: column;
+    }
+	}
+}
