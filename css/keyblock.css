@@ -378,11 +378,10 @@ a {
     margin-left: auto; }
   .rest_page-header .btn.anchor_btn {
     margin-left: 20px;
-    width: 168px;
     height: 36px;
     font-size: 16px;
     background-color: #ff6a44;
-    padding: 0px 5px;
+    padding: 0px 20px;
     float: right;
     display: none;
     opacity: 0;

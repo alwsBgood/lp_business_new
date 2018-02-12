@@ -1,0 +1,1523 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+
+    <title>Allset for Business</title>
+
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+
+    <meta property="og:description" content="" />
+
+    <meta property="og:image" content="" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="300" />
+    <meta property="og:image:height" content="300" />
+
+    <meta property="og:site_name" content="CompanyName" />
+    <meta property="og:title" content="" />
+    <meta property="og:url" content="" />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="img/favicon/manifest.json">
+    <link rel="shortcut icon" href="img/favicon/favicon.ico">
+    <meta name="msapplication-config" content="img/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- RESET -->
+    <style>
+        html,
+        body,
+        div,
+        span,
+        applet,
+        object,
+        iframe,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        p,
+        blockquote,
+        pre,
+        a,
+        abbr,
+        acronym,
+        address,
+        big,
+        cite,
+        code,
+        del,
+        dfn,
+        em,
+        img,
+        ins,
+        kbd,
+        q,
+        s,
+        samp,
+        small,
+        strike,
+        strong,
+        sub,
+        sup,
+        tt,
+        var,
+        b,
+        u,
+        i,
+        center,
+        dl,
+        dt,
+        dd,
+        ol,
+        ul,
+        li,
+        fieldset,
+        form,
+        label,
+        legend,
+        table,
+        caption,
+        tbody,
+        tfoot,
+        thead,
+        tr,
+        th,
+        td,
+        article,
+        aside,
+        canvas,
+        details,
+        embed,
+        figure,
+        figcaption,
+        footer,
+        header,
+        hgroup,
+        menu,
+        nav,
+        output,
+        ruby,
+        section,
+        summary,
+        time,
+        mark,
+        audio,
+        video {
+            margin: 0;
+            padding: 0;
+            border: 0;
+            font-size: 100%;
+            font: inherit;
+            vertical-align: baseline
+        }
+
+        article,
+        aside,
+        details,
+        figcaption,
+        figure,
+        footer,
+        header,
+        hgroup,
+        menu,
+        nav,
+        section {
+            display: block
+        }
+
+        body {
+            line-height: 1
+        }
+
+        ol,
+        ul {
+            list-style: none
+        }
+
+        blockquote,
+        q {
+            quotes: none
+        }
+
+        blockquote:before,
+        blockquote:after,
+        q:before,
+        q:after {
+            content: '';
+            content: none
+        }
+
+        table {
+            border-collapse: collapse;
+            border-spacing: 0
+        }
+
+        * {
+            box-sizing: border-box
+        }
+
+        html,
+        body {
+            margin: 0;
+            width: 100%
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto
+        }
+
+        a,
+        button,
+        img,
+        input {
+            -webkit-transition: all .5s;
+            transition: all .5s
+        }
+
+        button,
+        button:active,
+        button:focus,
+        input,
+        input:active,
+        input:focus,
+        textarea,
+        textarea:active,
+        textarea:focus {
+            outline: none
+        }
+
+        button,
+        button:hover,
+        a,
+        a:hover {
+            text-decoration: none;
+            cursor: pointer
+        }
+
+        .clear {
+            clear: both;
+            display: block;
+            overflow: hidden;
+            visibility: hidden;
+            width: 0;
+            height: 0
+        }
+
+        .clearfix:before,
+        .clearfix:after,
+        .container:before,
+        .container:after {
+            content: '.';
+            display: block;
+            overflow: hidden;
+            visibility: hidden;
+            font-size: 0;
+            line-height: 0;
+            width: 0;
+            height: 0
+        }
+
+        .clearfix:after,
+        .container:after {
+            clear: both
+        }
+
+        .left {
+            float: left
+        }
+
+        .right {
+            float: right
+        }
+
+        .tl {
+            text-align: left
+        }
+
+        .tr {
+            text-align: right
+        }
+
+        .tc {
+            text-align: center
+        }
+
+        .flex {
+            display: -webkit-box;
+            display: flex;
+            -webkit-box-align: center;
+            align-items: center;
+            -webkit-box-pack: center;
+            justify-content: center
+        }
+
+        a,
+        button,
+        input,
+        textarea {
+            text-decoration: none;
+            outline: 0;
+            border: 0;
+            -webkit-transition: color .4s ease, background-color .4s ease, background-image .4s ease, border-color .4s ease;
+            transition: color .4s ease, background-color .4s ease, background-image .4s ease, border-color .4s ease
+        }
+
+        a:focus,
+        button:focus,
+        input:focus,
+        textarea:focus {
+            outline: 0
+        }
+
+        input,
+        textarea {
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box
+        }
+
+        textarea {
+            resize: none
+        }
+
+        button:hover,
+        a:hover {
+            cursor: pointer
+        }
+
+        .cf:after,
+        .cf:before {
+            content: " ";
+            display: table
+        }
+
+        .cf:after {
+            clear: both
+        }
+    </style>
+
+    <!-- FONTS+HEADER -->
+    <style>
+        @font-face {
+            font-family: GothamProRegular;
+            font-style: normal;
+            font-weight: 400;
+            src: url(fonts/GothamProRegular/GothamProRegular.woff2) format("woff2"), url(fonts/GothamProRegular/GothamProRegular.woff) format("woff")
+        }
+
+        @font-face {
+            font-family: GothamProMedium;
+            font-style: normal;
+            font-weight: 500;
+            src: url(fonts/GothamProMedium/GothamProMedium.woff2) format("woff2"), url(fonts/GothamProMedium/GothamProMedium.woff) format("woff")
+        }
+
+        @font-face {
+            font-family: GothamProLight;
+            font-style: normal;
+            font-weight: 300;
+            src: url(fonts/GothamProLight/GothamProLight.woff2) format("woff2"), url(fonts/GothamProLight/GothamProLight.woff) format("woff")
+        }
+
+        @font-face {
+            font-family: icomoon;
+            src: url(fonts/icomoon/icomoon.eot?4k3kpb);
+            src: url(fonts/icomoon/icomoon.eot?4k3kpb#iefix) format("embedded-opentype"), url(fonts/icomoon/icomoon.ttf?4k3kpb) format("truetype"), url(fonts/icomoon/icomoon.woff?4k3kpb) format("woff"), url(fonts/icomoon/icomoon.svg?4k3kpb#icomoon) format("svg");
+            font-weight: 400;
+            font-style: normal
+        }
+
+        html {
+            font-size: 14px;
+            height: 100%;
+            -webkit-text-size-adjust: 100%;
+            font-size-adjust: 100%
+        }
+
+        body {
+            font: 18px/28px GothamProRegular, sans-serif, Arial, Helvetica, sans-serif;
+            background-color: #fff;
+            width: 100%;
+            min-height: 100%;
+            margin: 0;
+            padding: 0;
+            color: #383434
+        }
+
+        body.unscroll {
+            position: fixed;
+            left: 0;
+            right: 0;
+            bottom: 0
+        }
+
+        a {
+            color: #383434
+        }
+
+        .brand-red-color {
+            color: #ff6a44
+        }
+
+        .main-content {
+            position: relative;
+            width: 100%;
+            margin: 0 auto;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box
+        }
+
+        .content-wrapper {
+            max-width: 1120px;
+            width: 100%;
+            padding: 0 30px;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+            margin: 0 auto
+        }
+
+        .gray-bg {
+            background-color: #f4f4f4
+        }
+
+        .circle-gradient {
+            background: rgba(0, 0, 0, 0.45);
+            background: -webkit-radial-gradient(circle, rgba(0, 0, 0, 0.65), transparent, transparent);
+            background: radial-gradient(circle, rgba(0, 0, 0, 0.65), transparent, transparent)
+        }
+
+        .ellipse-gradient {
+            background: rgba(0, 0, 0, 0.45);
+            background: -webkit-radial-gradient(ellipse, rgba(0, 0, 0, 0.65), transparent, transparent);
+            background: radial-gradient(ellipse, rgba(0, 0, 0, 0.65), transparent, transparent)
+        }
+
+        .styled-scroll::-webkit-scrollbar-button {
+            background-image: url();
+            background-repeat: no-repeat;
+            width: 5px;
+            height: 0
+        }
+
+        .styled-scroll::-webkit-scrollbar-track {
+            background-color: rgba(236, 236, 236, 0.4)
+        }
+
+        .styled-scroll::-webkit-scrollbar-thumb {
+            -webkit-border-radius: 3px;
+            border-radius: 3px;
+            background-color: #e4e3e3
+        }
+
+        .styled-scroll::-webkit-scrollbar-thumb:hover {
+            background-color: #e4e3e3
+        }
+
+        .styled-scroll::-webkit-resizer {
+            background-image: url();
+            background-repeat: no-repeat;
+            width: 4px;
+            height: 0
+        }
+
+        .styled-scroll::-webkit-scrollbar {
+            width: 4px
+        }
+
+        .btn {
+            cursor: pointer;
+            border: none;
+            outline: none;
+            -webkit-box-shadow: none;
+            box-shadow: none;
+            padding: 0;
+            background-color: transparent;
+            text-transform: capitalize;
+            display: inline-block;
+            text-align: center;
+            -webkit-transition: all .25s;
+            transition: all .25s;
+            font-size: 14px;
+            line-height: 17px;
+            text-transform: capitalize;
+            -webkit-border-radius: 3px;
+            border-radius: 3px;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+            cursor: pointer
+        }
+
+        .btn-red {
+            background-color: #ff6a44;
+            padding: 15px;
+            color: #fff;
+            font-weight: 500;
+            font-family: "GothamProMedium", Arial, Helvetica, sans-serif
+        }
+
+        .btn-red:hover {
+            background-color: #ee5c37
+        }
+
+        .btn-red-border {
+            color: #ff6a44;
+            background-color: #fff;
+            border: 1px solid rgba(255, 106, 68, 0.3);
+            -webkit-border-radius: 3px;
+            border-radius: 3px;
+            letter-spacing: 1px;
+            font-size: 14px;
+            line-height: 17px;
+            padding: 15px;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box
+        }
+
+        .btn-red-border:hover {
+            border: 1px solid #ff6a44
+        }
+
+        .btn-white {
+            color: #ff6a44;
+            font-family: 'GothamProMedium', Arial, Helvetica, sans-serif;
+            font-size: 13px;
+            opacity: .9;
+            background-color: #fff;
+            padding: 15px;
+            -webkit-border-radius: 3px;
+            border-radius: 3px
+        }
+
+        .btn-white-border {
+            width: 81px;
+            height: 32px;
+            -webkit-border-radius: 6px;
+            border-radius: 6px;
+            border: solid 1.5px rgba(255, 255, 255, 0.5);
+            font-family: "GothamProMedium", sans-serif;
+            font-size: 14px;
+            text-align: center;
+            color: #fff
+        }
+
+        .btn-white-border:hover {
+            color: #ff6a44;
+            border-color: #ff6a44
+        }
+
+        .form__disabled .btn[type="submit"] .text {
+            opacity: .5
+        }
+
+        .spinner {
+            display: none;
+            height: 45px;
+            background-color: #fff;
+            background-image: url(./img/spinner.gif)
+        }
+
+        .loading .btn-red[type='submit'] {
+            display: none
+        }
+
+        .loading .spinner {
+            display: block
+        }
+
+        .btn-loader img {
+            height: 41px
+        }
+
+        .btn-loader {
+            padding-top: 5px;
+            padding-bottom: 5px;
+            display: none
+        }
+
+        .btn-loader,
+        .btn-loader:hover {
+            background-color: transparent
+        }
+
+        .btn-loader img {
+            display: block;
+            height: 40px;
+            width: auto;
+            margin: 0 auto
+        }
+
+        .on-loading .btn-loader {
+            display: block
+        }
+
+        .on-loading button.btn-red {
+            display: none
+        }
+
+        .business_page-block_01 {
+            background-image: url(./img/img-key.jpg);
+            color: #fff;
+            padding: 110px 0 15px;
+            position: relative
+        }
+
+        .business_page-block_01:before {
+            position: absolute;
+            content: '';
+            top: 0;
+            right: 0;
+            left: 0;
+            width: 100%;
+            height: 180px;
+            background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.65)), to(transparent));
+            background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.65) 0%, transparent 100%);
+            background: linear-gradient(to bottom, rgba(0, 0, 0, 0.65) 0%, transparent 100%);
+            opacity: .25
+        }
+
+        .business_page-block_01:after {
+            position: absolute;
+            content: '';
+            bottom: 0;
+            right: 0;
+            left: 0;
+            width: 100%;
+            height: 140px;
+            background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.65)), to(transparent));
+            background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.65) 0%, transparent 100%);
+            background: linear-gradient(to top, rgba(0, 0, 0, 0.65) 0%, transparent 100%);
+            opacity: .35
+        }
+
+        .business_page-block_01 .business_page-block_01-content {
+            margin: auto;
+            margin-bottom: 55px;
+            padding-left: 48px
+        }
+
+        .business_page-block_01 .content-wrapper {
+            position: relative;
+            z-index: 2
+        }
+
+        .business_page-block_01 .promo_wrapper {
+            margin-top: 20px
+        }
+
+        .business_page-block_01 .promo_wrapper .promo_tooltip {
+            -webkit-border-radius: 200px;
+            border-radius: 200px;
+            background-color: rgba(19, 184, 110, 0.7);
+            font-size: 12px;
+            line-height: 14px;
+            padding: 5px 10px 3px;
+            margin-right: 8px
+        }
+
+        .business_page-block_01 .promo_wrapper .promo_text {
+            opacity: .79;
+            font-size: 10px;
+            font-weight: 500;
+            line-height: 12px;
+            color: #fff;
+            margin-top: 3px;
+            letter-spacing: .01em
+        }
+
+        .business_page-block_01 .main_header {
+            font-size: 45px;
+            text-shadow: 0 2px 21px rgba(0, 0, 0, 0.42);
+            line-height: 48px;
+            margin-bottom: 20px;
+            font-family: "GothamProMedium", sans-serif;
+            font-weight: 500
+        }
+
+        .business_page-block_01 .main_header-descr {
+            margin-bottom: 30px;
+            text-shadow: 0 2px 12px rgba(0, 0, 0, 0.5)
+        }
+
+        .business_page-block_01 .business_page-block_01-press_block {
+            overflow: hidden
+        }
+
+        .business_page-block_01 .new_press_logo {
+            padding: 10px;
+            display: inline-block;
+            min-width: 90px;
+            max-width: 14%
+        }
+
+        .business_page-block_01 .new_press_logo img {
+            width: 100%;
+            opacity: .8;
+            will-change: opacity
+        }
+
+        .business_page-block_01 .new_press_logo img:hover {
+            opacity: 1
+        }
+
+        .business_page-block_01 .block_btn {
+            width: 100%;
+            max-width: 140px
+        }
+
+        .business_page-block_01 .main_header-mobile {
+            display: none
+        }
+
+        @media screen and (max-width: 1060px) {
+            .business_page-block_01 .business_page-block_01-press_block {
+                -webkit-justify-content: space-around;
+                -ms-flex-pack: distribute;
+                justify-content: space-around;
+                -webkit-flex-wrap: wrap;
+                -ms-flex-wrap: wrap;
+                flex-wrap: wrap
+            }
+            .business_page-block_01 .new_press_logo {
+                padding: 0 10px
+            }
+        }
+
+        @media screen and (max-width: 760px) {
+            .business_page-block_01.bg-cover {
+                background-position: center left 40%
+            }
+            .business_page-block_01 {
+                padding-bottom: 20px
+            }
+            .business_page-block_01 .main_header-descr {
+                max-width: 70%
+            }
+            .business_page-block_01 .main_header-descr br {
+                display: none
+            }
+            .business_page-block_01 .business_page-block_01-content {
+                padding-left: 0;
+                margin-bottom: 40px
+            }
+            .business_page-block_01 .new_press_logo {
+                max-width: 25%;
+                min-width: 60px;
+                padding: 0 8px;
+                -webkit-flex: 0 1 25%;
+                -moz-flex: 0 1 25%;
+                -ms-flex: 0 1 25%;
+                -webkit-box-flex: 0;
+                flex: 0 1 25%
+            }
+            .business_page-block_01 .new_press_logo img {
+                width: auto
+            }
+        }
+
+        @media screen and (max-width: 650px) {
+            .business_page-block_01.bg-cover {
+                background-position: center left 50%
+            }
+            .business_page-block_01 {
+                padding-top: 100px
+            }
+            .business_page-block_01 .main_header {
+                display: none
+            }
+            .business_page-block_01 .main_header-mobile {
+                display: block;
+                color: #fff;
+                font-family: "GothamProMedium", sans-serif;
+                font-size: 34px;
+                line-height: 1.12;
+                text-shadow: 0 2px 21px rgba(0, 0, 0, 0.42);
+                margin-bottom: 20px
+            }
+            .business_page-block_01 .main_header-descr {
+                font-family: "GothamProLight", sans-serif
+            }
+            .business_page-block_01 .new_press_logo img {
+                width: 100%;
+                padding: 0 5px
+            }
+        }
+
+        @media screen and (max-width: 450px) {
+            .business_page-block_01 .main_header-descr {
+                max-width: 100%
+            }
+        }
+
+        .rest_page-header {
+            width: 100%;
+            padding: 15px 25px;
+            position: fixed;
+            z-index: 99;
+            top: 0;
+            right: 0;
+            left: 0;
+            -webkit-transition: background-color .4s;
+            transition: background-color .4s;
+            -webkit-box-align: center;
+            -webkit-align-items: center;
+            -ms-flex-align: center;
+            align-items: center
+        }
+
+        .rest_page-header .nav_list a {
+            color: #fff;
+            font-size: 12px;
+            line-height: 34px;
+            text-shadow: 0 0 20px rgba(0, 0, 0, 0.5)
+        }
+
+        .rest_page-header .nav_list a:hover {
+            color: #ff6a44
+        }
+
+        .rest_page-header .nav_list li+li {
+            margin-left: 20px
+        }
+
+        .rest_page-header .logo .logo-link {
+            color: #fff;
+            font-size: 20px;
+            margin-right: 70px
+        }
+
+        .rest_page-header .logo .logo-link:hover {
+            color: #ff6a44
+        }
+
+        .rest_page-header .btn-white-border {
+            margin-left: auto
+        }
+
+        .rest_page-header .btn.anchor_btn {
+            margin-left: 20px;
+            width: 168px;
+            height: 36px;
+            font-size: 16px;
+            background-color: #ff6a44;
+            padding: 0 5px;
+            float: right;
+            display: none;
+            opacity: 0;
+            -webkit-transition: opacity .4s, background-color .4s;
+            transition: opacity .4s, background-color .4s
+        }
+
+        .rest_page-header .btn.anchor_btn:hover {
+            background-color: #ee5c37
+        }
+
+        .rest_page-header .my-dropdown-title .icon {
+            fill: #fff;
+            stroke-color: #fff
+        }
+
+        .rest_page-header.scrolling {
+            background-color: #fff
+        }
+
+        .rest_page-header.scrolling .nav_list a {
+            color: #6e6e6e;
+            text-shadow: none
+        }
+
+        .rest_page-header.scrolling .nav_list a:hover {
+            color: #ff6a44
+        }
+
+        .rest_page-header.scrolling .logo .logo-link {
+            color: #ff6a44
+        }
+
+        .rest_page-header.scrolling .logo .logo-link:hover {
+            color: #383434
+        }
+
+        .rest_page-header.scrolling .btn.anchor_btn {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            opacity: 1
+        }
+
+        .rest_page-header.scrolling .my-dropdown .icon {
+            fill: #000
+        }
+
+        .rest_page-header.scrolling .btn-white-border {
+            border: none;
+            font-family: "GothamProMedium", sans-serif;
+            font-size: 14px;
+            text-align: center;
+            color: #ff6a44
+        }
+
+        .rest_page-header.scrolling .btn-white-border:hover {
+            color: #000
+        }
+
+        @media screen and (max-width: 700px) {
+            .rest_page-header {
+                padding: 15px 30px
+            }
+            .rest_page-header .mobile-view {
+                display: block
+            }
+            .rest_page-header .logo {
+                margin: auto;
+                width: 40px;
+                overflow: hidden
+            }
+            .rest_page-header .logo .logo-link {
+                font-size: 24px
+            }
+            .rest_page-header .mobile-nav-btn {
+                display: block;
+                margin-left: 0
+            }
+            .rest_page-header .account-dropdown-btn {
+                margin-left: 0;
+                margin-right: -25px
+            }
+            .rest_page-header .btn.anchor_btn {
+                font-size: 13px;
+                width: 90px;
+                margin-left: -85px;
+                padding: 0 11px
+            }
+            .rest_page-header .nav_list {
+                display: none
+            }
+            .rest_page-header .btn-white-border {
+                display: none
+            }
+        }
+    </style>
+
+    <!-- Load CSS, CSS Localstorage & WebFonts Main Function -->
+    <script>!function (a) { "use strict"; function b(a, b, c) { a.addEventListener ? a.addEventListener(b, c, !1) : a.attachEvent && a.attachEvent("on" + b, c) } function c(b, c) { return a.localStorage && localStorage[b + "_content"] && localStorage[b + "_file"] === c } function d(b, d) { if (a.localStorage && a.XMLHttpRequest) c(b, d) ? f(localStorage[b + "_content"]) : e(b, d); else { var h = g.createElement("link"); h.href = d, h.id = b, h.rel = "stylesheet", h.type = "text/css", g.getElementsByTagName("head")[0].appendChild(h), g.cookie = b } } function e(a, b) { var c = new XMLHttpRequest; c.open("GET", b, !0), c.onreadystatechange = function () { 4 === c.readyState && 200 === c.status && (f(c.responseText), localStorage[a + "_content"] = c.responseText, localStorage[a + "_file"] = b) }, c.send() } function f(a) { var b = g.createElement("style"); b.setAttribute("type", "text/css"), g.getElementsByTagName("head")[0].appendChild(b), b.styleSheet ? b.styleSheet.cssText = a : b.innerHTML = a } var g = a.document; a.loadCSS = function (a, b, c) { var d, e = g.createElement("link"); if (b) d = b; else { var f; f = g.querySelectorAll ? g.querySelectorAll("style,link[rel=stylesheet],script") : (g.body || g.getElementsByTagName("head")[0]).childNodes, d = f[f.length - 1] } var h = g.styleSheets; e.rel = "stylesheet", e.href = a, e.media = "only x", d.parentNode.insertBefore(e, b ? d : d.nextSibling); var i = function (a) { for (var b = e.href, c = h.length; c--;)if (h[c].href === b) return a(); setTimeout(function () { i(a) }) }; return e.onloadcssdefined = i, i(function () { e.media = c || "all" }), e }, a.loadLocalStorageCSS = function (e, f) { c(e, f) || g.cookie.indexOf(e) > -1 ? d(e, f) : b(a, "load", function () { d(e, f) }) } }(this);</script>
+
+    <!-- <link rel="stylesheet" href="./css/keyblock.css"> -->
+    <!-- Load CSS Start -->
+    <script>loadCSS("css/main.css?ver=1.0.0", false, "all");</script>
+    <!-- Load CSS End -->
+
+    <!-- Load CSS Compiled without JS -->
+    <noscript>
+        <link rel="stylesheet" href="css/main.css">
+    </noscript>
+
+</head>
+
+<body data-img='./img/land.png'>
+    <!--[if lt IE 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+    <![endif]-->
+
+    <div class="wrapper business-page main-content not-authorized">
+
+        <!-- Block_01 start -->
+        <div class="business_page-block_01 flexbox flex-vertical justify-space-between bg-cover">
+
+            <header class="cf rest_page-header flexbox">
+                <div class="nav-item my-dropdown account-dropdown-btn with-blur mobile-view">
+                    <button class="my-dropdown-title btn mobile-nav-btn">
+                        <svg class="icon" width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <defs></defs>
+                            <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                <g class="icon">
+                                    <g id="icons/ic_settings" transform="translate(2.000000, 5.000000)">
+                                        <rect id="Rectangle" x="0" y="0" width="20" height="2" rx="1"></rect>
+                                        <rect id="Rectangle" x="0" y="6" width="16" height="2" rx="1"></rect>
+                                        <rect id="Rectangle" x="0" y="12" width="12" height="2" rx="1"></rect>
+                                    </g>
+                                </g>
+                            </g>
+                        </svg>
+                    </button>
+                </div>
+
+                <div class="logo">
+                    <a class="logo-link" href="/">
+                        <span class="icon icon-nav_logo"></span>
+                    </a>
+                </div>
+
+                <ul class="nav_list flexbox">
+                    <li class="nav_item">
+                        <a href="/for-business/faq/">FAQ</a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="https://medium.com/@allset">Blog</a>
+                    </li>
+                </ul>
+
+                <a href="https://merchant.allsetnow.com/auth" class="btn btn-white-border flexbox align-items-center justify-center">Log In</a>
+
+                <button href="#form_anchor" class="btn scroll btn-red anchor_btn flexbox align-items-center justify-center">Try It Now</button>
+
+            </header>
+
+            <div class="content-wrapper">
+                <div class="business_page-block_01-content ">
+                    <h1 class="main_header text--white">Treat your team
+                        <br /> to New York restaurants</h1>
+                    <p class="main_header-mobile">Treat your
+                        <br /> employees
+                        <br />to New York
+                        <br /> restaurants</p>
+                    <p class="main_header-descr text--white">Employee meals at 1,000+ restaurants. Company paid or co-paid.
+                        <br /> Employees are in-and-out of the restaurant in 30 minutes or less.
+                    </p>
+                    <a href="#form_anchor" class="scroll btn btn-red block_btn">Try It Now</a>
+
+                    <div class="promo_wrapper flexbox justify-start align-items-center">
+                        <p class="promo_tooltip flexbox align-items-center">First 20 meals on us</p>
+                        <div class="promo_text">LIMITED TIME</div>
+                    </div>
+                </div>
+
+                <div class="business_page-block_01-press_block flexbox justify-space-between align-items-center">
+                    <div class="new_press_logo business_page-press_logo forbes-logo">
+                        <a target='_blank' rel="noreferrer" href="https://www.forbes.com/forbes/welcome/?toURL=https://www.forbes.com/sites/steveolenski/2015/11/24/new-mobile-apps-are-delivering-customized-services/&refURL=&referrer=#7b38747ca249">
+                            <img src="./img/logo_press_6.png" srcset="./img/logo_press_6@2x.png 2x" alt="Forbes">
+                        </a>
+                    </div>
+                    <div class="new_press_logo business_page-press_logo thp-logo">
+                        <a target='_blank' rel="noreferrer" href="http://www.huffingtonpost.com/john-rampton/how-to-promote-your-resta_b_8342924.html">
+                            <img src="./img/logo_press_7.png" srcset="./img/logo_press_7@2x.png 2x" alt="The Huffington Post">
+                        </a>
+                    </div>
+                    <div class="new_press_logo business_page-press_logo wsj-logo">
+                        <a target='_blank' rel="noreferrer" href="https://www.wsj.com/articles/allset-raises-2-35m-to-speed-up-restaurant-lunches-1474383600">
+                            <img src="./img/logo_press_4.png" srcset="./img/logo_press_4@2x.png 2x" alt="WSJ">
+                        </a>
+                    </div>
+                    <div class="new_press_logo business_page-press_logo ent-logo">
+                        <a target='_blank' rel="noreferrer" href="https://www.entrepreneur.com/article/254660">
+                            <img src="./img/logo_press_2.png" srcset="./img/logo_press_2@2x.png 2x" alt="Entrepreneur">
+                        </a>
+                    </div>
+                    <div class="new_press_logo business_page-press_logo bi-logo">
+                        <a target='_blank' rel="noreferrer" href="http://www.businessinsider.com/allset-facebook-messenger-chat-bot-book-lunch-2016-7">
+                            <img src="./img/logo_press_3.png" srcset="./img/logo_press_3@2x.png 2x" alt="Business Insider">
+                        </a>
+                    </div>
+                    <div class="new_press_logo business_page-press_logo tc-logo">
+                        <a target='_blank' rel="noreferrer" href="https://techcrunch.com/2016/02/03/allset-nyc-launch/">
+                            <img src="./img/logo_press_5.png" srcset="./img/logo_press_5@2x.png 2x" alt="TechCrunch">
+                        </a>
+                    </div>
+                    <div class="new_press_logo business_page-press_logo eater-logo">
+                        <a target='_blank' rel="noreferrer" href="https://www.eater.com/2016/3/10/11191556/allset-app">
+                            <img src="./img/logo_press_1.png" srcset="./img/logo_press_1@2x.png 2x" alt="EATER">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Block_01 end -->
+
+        <!-- Block_02 start -->
+        <div class="business_page-block_02">
+            <div class="content-wrapper">
+                <h2 class="header">Why companies love Allset</h2>
+                <div class="flexbox justify-space-between business_page-block_02-content-wrapper">
+                    <div class="business_page-block_02-item">
+                        <img src="./img/ic-happy.svg" alt="">
+                        <p class="title">Happier employees</p>
+                        <p class="text">Dining at restaurants empowers your employees
+                            <br /> to be happier and more productive.</p>
+                    </div>
+                    <div class="business_page-block_02-item">
+                        <img src="./img/ic-clearcost.svg" alt="">
+                        <p class="title">Clear costs</p>
+                        <p class="text">The company only pays or co-pays regular
+                            <br />restaurant menu prices. No additional fees.</p>
+                    </div>
+                </div>
+                <div class="flexbox justify-space-between business_page-block_02-content-wrapper">
+                    <div class="business_page-block_02-item">
+                        <img src="./img/ic-anytimewhere.svg" alt="">
+                        <p class="title">Use anytime, anywhere</p>
+                        <p class="text">Both in-office and field employees can enjoy any
+                            <br /> of our 1,000+ restaurants on their own schedule.</p>
+                    </div>
+                    <div class="business_page-block_02-item">
+                        <img src="./img/ic-experience.svg" alt="">
+                        <p class="title">Real dining experiences</p>
+                        <p class="text">Your employees receive exceptional service at
+                            <br /> great restaurants, not food in a box.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Block_02 end -->
+
+        <!-- Block_03 start -->
+        <div class="business_page-block_03 gray-bg">
+            <div class="business_page-steps_wrapper content-wrapper">
+                <h2 class="header">How it works</h2>
+                <p class="header_descr-text text--gray">Employees can enjoy restaurants on their own schedule: reserve their meals before arrival and be in-and-out
+                    of the restaurant within 30 minutes.</p>
+                <div class="business_page-steps">
+                    <div class="step_wrapper-1 step_wrapper flexbox align-items-center justify-space-between">
+                        <img src="./img/img-how-works-1.png" srcset="./img/img-how-works-1@2x.png 2x" alt="The company sets employee budget per meal."
+                            class="step-img step-img-1">
+                        <p class="step_descr">The company sets employee budget
+                            <br /> per meal. </p>
+                    </div>
+                    <div class="step_wrapper-2 step_wrapper flexbox align-items-center justify-space-between">
+                        <p class="step_descr">Employee orders are charged to the
+                            <br /> company payment method.</p>
+                        <img src="./img/img-how-works-2.png" srcset="./img/img-how-works-2@2x.png 2x" alt="Employee orders are charged to the company payment method."
+                            class="step-img step-img-2">
+                    </div>
+                    <div class="step_wrapper-3 step_wrapper flexbox align-items-center justify-space-between">
+                        <img src="./img/img-how-works-3.png" srcset="./img/img-how-works-3@2x.png 2x" alt="Everything above employee budget is paid by the employee."
+                            class="step-img step-img-3">
+                        <p class="step_descr">Everything above employee budget
+                            <br /> is paid by the employee.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Block_03 end -->
+
+        <!-- Block_04 start -->
+        <div class="business_page-block_04">
+            <div class="content-wrapper">
+                <h2 class="header">We meet your business needs</h2>
+                <p class="header_descr-text text--gray">Discover how easy it can be to feed your team, arrange business meetings, and reward the best employees.</p>
+
+                <img src="./img/img-occasions.jpg" srcset="./img/img-occasions@2x.jpg 2x" alt="Allset meets all your business needs" class="block_04-main_img">
+
+                <div class="block_04-items_wrapper flexbox">
+                    <div class="block_04-item block_04-item-1">
+                        <img src="./img/employee-meals.svg" alt="Employee meals" class="block_04-item_img">
+                        <p class="block_04-item_text text--bold">Employee meals</p>
+                    </div>
+                    <div class="block_04-item block_04-item-2">
+                        <img src="./img/business-meetings.svg" alt="Business meetings" class="block_04-item_img">
+                        <p class="block_04-item_text text--bold">Business meetings</p>
+                    </div>
+                    <div class="block_04-item block_04-item-3">
+                        <img src="./img/employee-perks.svg" alt="Employee perks" class="block_04-item_img">
+                        <p class="block_04-item_text text--bold">Employee perks</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Block_04 end -->
+
+        <!-- Block_05 start -->
+        <div class="business_page-block_05">
+            <div class="content-wrapper">
+                <div class="block_05-partners_wrapper">
+                    <div class="partners_header_wrapper">
+                        <h2 class="header">For every taste and occasion</h2>
+                        <p class="header_descr-text text--gray">Allset connects your team with 1,000+ restaurants for breakfast, lunch, dinner, and more.</p>
+                    </div>
+                    <div class="partners_logo_wrapper flexbox justify-space-between align-items-center">
+                        <div class="business_page-partners-logo cosme-logo">
+                            <img src="./img/logo-partner-4.png" srcset="./img/logo-partner-4@2x.png 2x" alt="COSME">
+                        </div>
+                        <div class="business_page-partners-logo lcr-logo">
+                            <img src="./img/logo-partner-3.png" srcset="./img/logo-partner-3@2x.png 2x" alt="Le coq Rico Insider">
+                        </div>
+                        <div class="business_page-partners-logo obica-logo">
+                            <img src="./img/logo-partner-2.png" srcset="./img/logo-partner-2@2x.png 2x" alt="OBICA">
+                        </div>
+                        <div class="business_page-partners-logo bareburger-logo">
+                            <img src="./img/logo-partner-10.png" srcset="./img/logo-partner-10@2x.png 2x" alt="Bareburger">
+                        </div>
+                        <div class="business_page-partners-logo rahi-logo">
+                            <img src="./img/logo-partner-11.png" srcset="./img/logo-partner-11@2x.png 2x" alt="RAHI">
+                        </div>
+                        <div class="business_page-partners-logo raclette-logo">
+                            <img src="./img/logo-partner-1.png" srcset="./img/logo-partner-1@2x.png 2x" alt="RACLETTE">
+                        </div>
+                    </div>
+
+                    <p class="partners_desr_text text--gray">From your favorite lunch spot to a fine dining gem, support local businesses by eating at local restaurants.</p>
+                </div>
+            </div>
+        </div>
+        <!-- Block_05 end -->
+
+        <!-- Block_06 start -->
+        <div class="business_page-block_06 gray-bg">
+            <div class="content-wrapper">
+                <div class="cities_wrapepr">
+                    <h2 class="header">Available in 10 major cities and expanding nationwide</h2>
+
+                    <div class="flexbox cities_content">
+                        <div class="city-item flexbox align-items-center justify-content-center">
+                            <img src="./img/slice10.png" srcset="img/slice10@2x.png 2x, img/slice10@3x.png 3x" class="city_img">
+                            <p class="text--white city_name">SF Bay Area</p>
+                        </div>
+                        <div class="city-item flexbox align-items-center justify-content-center">
+                            <img src="./img/slice2.png" srcset="img/slice2@2x.png 2x, img/slice2@3x.png 3x" class="city_img">
+                            <p class="text--white city_name">New York</p>
+                        </div>
+                        <div class="city-item flexbox align-items-center justify-content-center">
+                            <img src="./img/slice3.png" srcset="img/slice3@2x.png 2x, img/slice3@3x.png 3x" class="city_img">
+                            <p class="text--white city_name">Chicago</p>
+                        </div>
+                        <div class="city-item flexbox align-items-center justify-content-center">
+                            <img src="./img/slice4.png" srcset="img/slice4@2x.png 2x, img/slice4@3x.png 3x" class="city_img">
+                            <p class="text--white city_name">Boston</p>
+                        </div>
+                        <div class="city-item flexbox align-items-center justify-content-center">
+                            <img src="./img/slice5.png" srcset="img/slice5@2x.png 2x, img/slice5@3x.png 3x" class="city_img">
+                            <p class="text--white city_name">Austin</p>
+                        </div>
+                        <div class="city-item flexbox align-items-center justify-content-center">
+                            <img src="./img/slice6.png" srcset="img/slice6@2x.png 2x, img/slice6@3x.png 3x" class="city_img">
+                            <p class="text--white city_name">Seattle</p>
+                        </div>
+                        <div class="city-item flexbox align-items-center justify-content-center">
+                            <img src="./img/slice7.png" srcset="img/slice7@2x.png 2x, img/slice7@3x.png 3x" class="city_img">
+                            <p class="text--white city_name">San Jose</p>
+                        </div>
+                        <div class="city-item flexbox align-items-center justify-content-center">
+                            <img src="./img/slice8.png" srcset="img/slice8@2x.png 2x, img/slice8@3x.png 3x" class="city_img">
+                            <p class="text--white city_name">Houston</p>
+                        </div>
+                        <div class="city-item flexbox align-items-center justify-content-center">
+                            <img src="./img/slice9.png" srcset="img/slice9@2x.png 2x, img/slice9@3x.png 3x" class="city_img">
+                            <p class="text--white city_name">Los Angeles</p>
+                        </div>
+                        <div class="city-item flexbox align-items-center justify-content-center">
+                            <img src="./img/slice1.png" srcset="img/slice1@2x.png 2x, img/slice1@3x.png 3x" class="city_img">
+                            <p class="text--white city_name">Las Vegas</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="form_anchor"></div>
+
+                <div class="form_wrapper" id="form_anchor">
+                    <div class="main_info_wrapper">
+                        <h2 class="header">Employee meals at restaurants in under 30 minutes.
+                            <br /> Company paid or co-paid.</h2>
+                        <p class="header_descr text--gray ">Free setup. No contracts or commitments. Start (or cancel) at any time.</p>
+                        <form data-form-type='redirect_form' class="validate_form  getstarted cf">
+                            <!-- Hidden required fields satrt -->
+                            <input type="hidden" name="send_adress" value="https://allsetnow.com/api/merchant/v1/application/">
+                            <!-- Hidden required fields end -->
+                            <div class="flexbox form_content-wrapper justify-space-between">
+                                <div class="form-group left_fl">
+                                    <div class="form_input_block input_block flex-vertical flexbox align-items-center">
+                                        <input type="text" class="input_block_input validate_input" placeholder="Contact Name" name="contact_name" required="">
+                                        <p class="empty_field_text">Please enter your name.</p>
+                                    </div>
+                                    <div class="form_input_block input_block flex-vertical flexbox align-items-center">
+                                        <input type="email" class="input_block_input validate_input" placeholder="Email Address" name="email" required="">
+                                        <p class="empty_field_text">Please enter your email.</p>
+                                        <p class="error_field_text">Hmm, are you sure this email is correct?</p>
+                                    </div>
+                                    <div class="form_input_block input_block flex-vertical flexbox align-items-center">
+                                        <input type="tel" class="input_block_input validate_input" placeholder="Phone Number" name="phone" required="">
+                                        <p class="empty_field_text">Please enter your phone number.</p>
+                                        <p class="error_field_text">Hmm, are you sure this phone number is correct?</p>
+                                    </div>
+                                </div>
+                                <div class="form-group right_fl">
+                                    <div class="form_input_block input_block flex-vertical flexbox align-items-center">
+                                        <input type="text" class="input_block_input validate_input" name="company_name" placeholder="Company Name" required="">
+
+                                        <p class="empty_field_text">Please enter your Company name.</p>
+                                    </div>
+                                    <div class="form_input_block input_block flex-vertical flexbox align-items-center">
+                                        <input type="text" class="input_block_input validate_input" name="url" placeholder="City" required="">
+                                        <p class="empty_field_text">Please enter your City.</p>
+                                    </div>
+                                    <div class="form_input_block select_input_block flex-vertical input_block flexbox align-items-center">
+                                        <input required="" type="hidden" name="found_us" value="">
+                                        <div class="select-input">
+                                            <span class="icon icon-chevron-down"></span>
+                                            <div class="input_block_input select_input-placeholder">
+                                                <span>Company Size</span>
+                                            </div>
+                                            <div class="my-dropdown-menu-overlay"></div>
+                                        </div>
+                                        <div class="block-item-selection">
+                                            <div class="item-option">0-25</div>
+                                            <div class="item-option">25-100</div>
+                                            <div class="item-option">100+</div>
+                                        </div>
+                                        <p class="empty_field_text">Please select one of the option.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <button class="btn-red btn validate_btn" type="submit">
+                                <span class="text">Submit Request</span>
+                            </button>
+                            <div class="btn-red btn-loader">
+                                <img src="https://allsetnow.com/static/merchant_dashboard/images/loaders/spinner.gif" />
+                            </div>
+                        </form>
+
+                        <p class="business_page-form_descr">
+                            <span class="text--bold">Your company will have 20 meals on us to try.</span>
+                            <br> Limited time only.</p>
+                    </div>
+                </div>
+
+                <p class="block-contacts">Questions? Contact us at
+                    <a href="tel:+14155807989" class="text--orange">+1 (415) 580-7989</a> or
+                    <a href="mailto:corporate@allsetnow.com" class="text--orange">corporate@allsetnow.com.</a>
+                </p>
+            </div>
+        </div>
+        <!-- Block_06 end -->
+
+
+        <!-- Footer block start-->
+        <footer>
+            <div class="content-wrapper flexbox justify-space-between flex-wrap">
+                <div class="footer-column footer-column--logo">
+                    <div class="logo">
+                        <a class="logo-link" href="/">
+                            <span class="icon icon-nav_logo"></span>
+                        </a>
+                    </div>
+                    <div class="copyright">
+                        &copy; 2017 Allset Technologies Inc.
+                    </div>
+                </div>
+                <div class="footer-column footer-column--allset">
+                    <div class="footer-column_title">ALLSET</div>
+                    <ul class="footer-column_list">
+                        <li>
+                            <a href="/faq/" class="footer-column_list-item">FAQ</a>
+                        </li>
+                        <li>
+                            <a class="footer-column_list-item" href="/about/">About</a>
+                        </li>
+                        <li>
+                            <a class="footer-column_list-item" href="/terms/">Terms of Use</a>
+                        </li>
+                        <li>
+                            <a class="footer-column_list-item" href="/privacy/">Privacy Policy</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-column footer-column--partnet">
+                    <div class="footer-column_title">PARTNET WITH US</div>
+                    <ul class="footer-column_list">
+                        <li>
+                            <a href="https://allsetnow.com/for-business/" class="footer-column_list-item">For Business</a>
+                        </li>
+                        <li>
+                            <a href="https://allsetnow.com/for-restaurants/" class="footer-column_list-item">For Restaurants</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-column footer-column--contacts">
+                    <div class="footer-column_title">CONNECT WITH US</div>
+                    <ul class="footer-column_list">
+                        <li>
+                            <a href="https://medium.com/@allset" class="footer-column_list-item" target="_blank" rel="nofollow noopener noreferrer">Blog</a>
+                        </li>
+                        <li class="contact-btn-wrapper">
+                            <a href="https://www.facebook.com/allsetnow" class="btn" target="_blank" rel="nofollow noopener noreferrer">
+                                <span class="icon icon-fb"></span>
+                            </a>
+                            <a href="https://twitter.com/allsetUS" class="btn" target="_blank" rel="nofollow noopener noreferrer">
+                                <span class="icon icon-twitter"></span>
+                            </a>
+                            <a href="https://www.instagram.com/allsetnow/" class="btn" target="_blank" rel="nofollow noopener noreferrer">
+                                <span class="icon icon-instagram"></span>
+                            </a>
+                            <a href="mailto:support@allsetnow.com" class="btn" target="_blank" rel="nofollow noopener noreferrer">
+                                <span class="icon icon-envelope-shape"></span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-column footer-column--apps">
+                    <ul class="footer-column_list">
+                        <li>
+                            <a href="https://itunes.apple.com/US/app/id1016005447?mt=8" class="app-link flexbox align-items-center" target="_blank" rel="nofollow noopener noreferrer">
+                                <span class="icon icon-apple flex-shrink-none"></span>
+                                <span class="text">iOS App</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://play.google.com/store/apps/details?id=com.allset.client&referrer=af_tranid%3D6DXXhAf4I6SdMH0OVi2UwQ%26pid%3DWebsite%26c%3Dallsetnow.com"
+                                class="app-link flexbox align-items-center" target="_blank" rel="nofollow noopener noreferrer">
+                                <span class="icon icon-android flex-shrink-none"></span>
+                                <span class="text">Android App</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+        <!-- Footer block end-->
+
+    </div>
+
+    <div class="nav-mob my-dropdown with-blur" data-modal="nav-mob" id="nav-mob">
+        <div class="my-dropdown-menu-overlay"></div>
+        <div class="my-dropdown-menu">
+            <div class="nav-mob-content-wrapper">
+                <button class="my-dropdown-item btn cross-btn">
+                    <span class="icon icon-close"></span>
+                </button>
+
+                <div class="profile-auth not-authorized-show">
+                    <a class="nav-item btn auth-btn text--light" href="/">Home</a>
+                    <a class="nav-item btn auth-btn text--light" href="https://allsetnow.com/order/">Find Restaurants</a>
+                    <a href="https://allsetnow.com/order/auth/#sign-in" class="nav-item btn auth-btn text--bold">Log In</a>
+                    <a href="https://allsetnow.com/order/auth/#sign-up" class="nav-item btn auth-btn text--bold">Sign Up</a>
+                </div>
+
+                <ul class="profile-mob-nav profile-mob-nav_tab-list not-authorized-hide">
+                    <li class="profile_tab profile_tab_link">
+                        <a href="/">Home</a>
+                    </li>
+                    <li class="profile_tab profile_tab_link">
+                        <a href="address_list.html">Find Restaurants</a>
+                    </li>
+                    <li class="my-dropdown-item profile_tab" data-section="profile_history-sect" data-href="/order/profile/#orders">
+                        Orders
+                    </li>
+                    <li class="my-dropdown-item profile_tab" data-section="profile_sets-sect" data-href="/order/profile/#settings">
+                        Settings
+                    </li>
+                    <li class="my-dropdown-item profile_tab" data-section="profile_payment-sect" data-href="/order/profile/#payment">
+                        Payment Method
+                    </li>
+                    <li class="my-dropdown-item profile_tab" data-section="profile_promo-sect" data-href="/order/profile/#promotions">
+                        Promotions
+                    </li>
+                    <li class="my-dropdown-item profile_tab light-text" data-href="/order/profile/#promotions" data-section="profile_promo-sect">
+                        Promotions-web
+                    </li>
+                    <li class="my-dropdown-item profile_tab" data-section="profile_give-get-sect" data-href="/order/profile/#share">
+                        Give $50, Get $10
+                    </li>
+                    <li class="my-dropdown-item profile_tab" data-section="profile_help-sect" data-href="/order/profile/#help">
+                        Help
+                    </li>
+                    <li class="my-dropdown-item log-out_btn">
+                        <button type="button" class="btn" data-href="/order/logout/">
+                            <span class="icon icon-logout"></span>
+                            Log out
+                        </button>
+                    </li>
+                </ul>
+
+                <div class="allset-mob-nav">
+                    <div class="allset-mob-nav_item my-dropdown with-blur" data-modal="get-app-modal">
+                        <button class="btn link-app-btn my-dropdown-title">
+                            <span>Get the app</span>
+                        </button>
+                    </div>
+                    <div class="allset-mob-nav_item">
+                        <div class="my-dropdown for-business-dropdown" data-modal="for-business-dropdown" id="for-business-dropdown">
+                            <span class="my-dropdown-title">
+                                <span class="text">For Business</span>
+                                <span class="icon icon-chevron-down"></span>
+                                <span class="icon icon-chevron-up"></span>
+                            </span>
+                            <div class="my-dropdown-menu">
+                                <a href="https://allsetnow.com/for-business/" class="allset-mob-nav_item">Learn More</a>
+                                <a href="https://allsetnow.com/corporate/auth/" class="allset-mob-nav_item">Business Dashboard</a>
+                                <a href="https://allsetnow.com/for-business/faq/" class="allset-mob-nav_item">FAQ</a>
+                                <a href="https://allsetnow.com/for-business/terms/" class="allset-mob-nav_item">Terms of Use</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="allset-mob-nav_item">
+                        <div class="my-dropdown for-restaurants-dropdown" data-modal="for-restaurants-dropdown" id="for-restaurants-dropdown">
+                            <span class="my-dropdown-title">
+                                <span class="text">For Restaurants</span>
+                                <span class="icon icon-chevron-down"></span>
+                                <span class="icon icon-chevron-up"></span>
+                            </span>
+                            <div class="my-dropdown-menu">
+                                <a href="https://allsetnow.com/for-restaurants/" class="allset-mob-nav_item">Learn More</a>
+                                <a href="https://allsetnow.com/merchant/auth/" class="allset-mob-nav_item">Restaurant Dashboard</a>
+                                <a href="https://allsetnow.com/for-restaurants/faq/" class="allset-mob-nav_item">FAQ</a>
+                                <a href="https://allsetnow.com/for-restaurants/terms/" class="allset-mob-nav_item">Terms of Use</a>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="allset-mob-nav_item" href="https://allsetnow.com/faq/">FAQ</a>
+                    <a class="allset-mob-nav_item" href="https://allsetnow.com/about/">About</a>
+                    <a class="footer-column_list-item" href="/terms/">Terms of Use</a>
+                    <a class="footer-column_list-item" href="/privacy/">Privacy Policy</a>
+                    <a class="allset-mob-nav_item" href="https://medium.com/@allset" target="_blank" rel="nofollow noopener noreferrer">Blog</a>
+                    <div class="allset-mob-nav_item contact-links">
+                        <a href="https://www.facebook.com/allsetnow" class="btn" target="_blank" rel="nofollow noopener noreferrer">
+                            <span class="icon icon-fb"></span>
+                        </a>
+                        <a href="https://twitter.com/allsetUS" class="btn" target="_blank" rel="nofollow noopener noreferrer">
+                            <span class="icon icon-twitter"></span>
+                        </a>
+                        <a href="https://www.instagram.com/allsetnow/" class="btn" target="_blank" rel="nofollow noopener noreferrer">
+                            <span class="icon icon-instagram"></span>
+                        </a>
+                        <a href="mailto:support@allsetnow.com" class="btn" target="_blank" rel="nofollow noopener noreferrer">
+                            <span class="icon icon-envelope-shape"></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Load Scripts Start -->
+    <script>var scr = {
+            "scripts": [
+                { "src": "https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js", "async": false },
+                { "src": "js/common.js", "async": false }
+            ]
+}; !function (t, n, r) { "use strict"; var c = function (t) { if ("[object Array]" !== Object.prototype.toString.call(t)) return !1; for (var r = 0; r < t.length; r++) { var c = n.createElement("script"), e = t[r]; c.src = e.src, c.async = e.async, n.body.appendChild(c) } return !0 }; t.addEventListener ? t.addEventListener("load", function () { c(r.scripts); }, !1) : t.attachEvent ? t.attachEvent("onload", function () { c(r.scripts) }) : t.onload = function () { c(r.scripts) } }(window, document, scr);
+    </script>
+    <!-- Load Scripts End -->
+
+    <!-- Analytics start -->
+    <script type="text/javascript">
+        _linkedin_data_partner_id = "39194";
+    </script>
+    <script type="text/javascript">
+        (function () {
+            var s = document.getElementsByTagName("script")[0];
+            var b = document.createElement("script");
+            b.type = "text/javascript"; b.async = true;
+            b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
+            s.parentNode.insertBefore(b, s);
+        })();
+    </script>
+    <noscript>
+        <img height="1" width="1" style="display:none;" alt="" src="https://dc.ads.linkedin.com/collect/?pid=39194&fmt=gif" />
+    </noscript>
+    <!-- Analytics end -->
+</body>
+
+</html>
