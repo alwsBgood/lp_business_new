@@ -1,1 +1,23 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64"><g fill="none" fill-rule="evenodd"><g stroke="#000" stroke-width="1.5" transform="translate(10 5)"><path stroke-linecap="round" stroke-linejoin="round" d="M-2.128 26.63h53.256l-6.4 5.15H4.272l-6.401-5.15z"/><path d="M47.33 26.63C46.938 14.285 36.866 4.4 24.5 4.4c-12.365 0-22.437 9.885-22.83 22.23h45.66z"/><ellipse cx="24.5" cy="1.825" rx="1.815" ry="1.825"/></g><path stroke="#000" stroke-width="1.53" d="M14.832 40.965c.026-.04.052-.078.079-.116l-.205.2.126-.084zm6.251-3.837c.738-.155 1.784-.347 1.994-.347v-.765l-.122-.755-2.12.344.105 1.52.143.003zm30.152.673l.748.016-.748-.764v.748z"/><path fill="#FFF" d="M1.393 51.032l12.786-10.729 10.537 12.558L11.93 63.59z"/><path stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.53" d="M1.088 48.844L14.2 39.966l10.043 12.225-11.728 10.477"/></g></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>ic_easy</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="ic_experience" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-4" transform="translate(1.000000, 5.000000)">
+            <g id="Group-2" transform="translate(9.000000, 0.000000)" stroke="#000000" stroke-width="1.5">
+                <g id="Group" transform="translate(0.000000, 3.650624)">
+                    <path d="M-2.12848909,22.9790553 L51.1284891,22.9790553 L44.7272349,28.1296791 L4.27276507,28.1296791 L-2.12848909,22.9790553 Z" id="Rectangle-2" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M47.3306564,22.9790553 C46.9371807,10.634312 36.8652121,0.75 24.5,0.75 C12.1347879,0.75 2.06281934,10.634312 1.66934355,22.9790553 L47.3306564,22.9790553 Z" id="Oval-3"></path>
+                </g>
+                <ellipse id="Oval-3" cx="24.5" cy="1.82531194" rx="1.81481481" ry="1.82531194"></ellipse>
+            </g>
+            <g id="Group-3" transform="translate(0.000000, 31.000000)">
+                <path d="M13.8321203,4.96503199 C13.8575907,4.9259044 13.883736,4.88707106 13.9105572,4.8485478 L13.7055534,5.048972 L13.8321203,4.96503199 Z M20.0832865,1.12829445 C20.8206818,0.972789577 21.8671819,0.780979208 22.07728,0.780979208 L22.07728,0.0159792219 L21.9546643,-0.739130282 L19.8343067,-0.394823699 L19.9398642,1.12509558 L20.0832865,1.12829445 Z M50.235,1.80079339 L50.9829418,1.81747537 L50.235,1.05266559 L50.235,1.80079339 Z" id="Rectangle-5" stroke="#000000" stroke-width="1.52999997"></path>
+                <rect id="Rectangle-10" fill="#FFFFFF" transform="translate(12.054545, 15.946429) rotate(-40.000000) translate(-12.054545, -15.946429) " x="3.70909091" y="7.75" width="16.6909091" height="16.3928571"></rect>
+                <polyline id="Rectangle-3" stroke="#000000" stroke-width="1.52999997" stroke-linecap="round" stroke-linejoin="round" transform="translate(12.197548, 15.277467) rotate(-35.000000) translate(-12.197548, -15.277467) " points="3.67359658 6.33850385 19.5064915 6.58702322 20.7215 22.3618054 5.10490194 24.2164297"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>

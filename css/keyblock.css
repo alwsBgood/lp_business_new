@@ -147,6 +147,20 @@ a {
   -webkit-border-radius: 3px;
   border-radius: 3px; }
 
+.btn-white-border {
+  width: 81px;
+  height: 32px;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+  border: solid 1.5px rgba(255, 255, 255, 0.5);
+  font-family: "GothamProMedium", sans-serif;
+  font-size: 14px;
+  text-align: center;
+  color: #ffffff; }
+  .btn-white-border:hover {
+    color: #ff6a44;
+    border-color: #ff6a44; }
+
 .form__disabled .btn[type="submit"] .text {
   opacity: 0.5; }
 
@@ -286,6 +300,10 @@ a {
     background-position: center left 40%; }
   .business_page-block_01 {
     padding-bottom: 20px; }
+    .business_page-block_01 .main_header-descr {
+      max-width: 70%; }
+      .business_page-block_01 .main_header-descr br {
+        display: none; }
     .business_page-block_01 .business_page-block_01-content {
       padding-left: 0;
       margin-bottom: 40px; }
@@ -297,7 +315,9 @@ a {
       -moz-flex: 0 1 25%;
       -ms-flex: 0 1 25%;
       -webkit-box-flex: 0;
-      flex: 0 1 25%; } }
+      flex: 0 1 25%; }
+      .business_page-block_01 .new_press_logo img {
+        width: auto; } }
 
 @media screen and (max-width: 650px) {
   .business_page-block_01.bg-cover {
@@ -316,11 +336,13 @@ a {
       margin-bottom: 20px; }
     .business_page-block_01 .main_header-descr {
       font-family: "GothamProLight", sans-serif; }
-      .business_page-block_01 .main_header-descr br {
-        display: none; }
     .business_page-block_01 .new_press_logo img {
       width: 100%;
       padding: 0 5px; } }
+
+@media screen and (max-width: 450px) {
+  .business_page-block_01 .main_header-descr {
+    max-width: 100%; } }
 
 /*KEY-BLOCK_CONTENT - END*/
 .rest_page-header {
@@ -352,8 +374,10 @@ a {
     margin-right: 70px; }
     .rest_page-header .logo .logo-link:hover {
       color: #ff6a44; }
+  .rest_page-header .btn-white-border {
+    margin-left: auto; }
   .rest_page-header .btn.anchor_btn {
-    margin-left: auto;
+    margin-left: 20px;
     width: 168px;
     height: 36px;
     font-size: 16px;
@@ -389,6 +413,14 @@ a {
     opacity: 1; }
   .rest_page-header.scrolling .my-dropdown .icon {
     fill: #000; }
+  .rest_page-header.scrolling .btn-white-border {
+    border: none;
+    font-family: "GothamProMedium", sans-serif;
+    font-size: 14px;
+    text-align: center;
+    color: #ff6a44; }
+    .rest_page-header.scrolling .btn-white-border:hover {
+      color: #000; }
 
 @media screen and (max-width: 700px) {
   .rest_page-header {
@@ -413,4 +445,6 @@ a {
       margin-left: -85px;
       padding: 0 11px; }
     .rest_page-header .nav_list {
+      display: none; }
+    .rest_page-header .btn-white-border {
       display: none; } }
