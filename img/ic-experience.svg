@@ -1,22 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
-    <title>ic_easy</title>
+    <title>ic_experience</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
-    <g id="ic_experience" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Group-4" transform="translate(1.000000, 5.000000)">
-            <g id="Group-2" transform="translate(9.000000, 0.000000)" stroke="#000000" stroke-width="1.5">
-                <g id="Group" transform="translate(0.000000, 3.650624)">
-                    <path d="M-2.12848909,22.9790553 L51.1284891,22.9790553 L44.7272349,28.1296791 L4.27276507,28.1296791 L-2.12848909,22.9790553 Z" id="Rectangle-2" stroke-linecap="round" stroke-linejoin="round"></path>
-                    <path d="M47.3306564,22.9790553 C46.9371807,10.634312 36.8652121,0.75 24.5,0.75 C12.1347879,0.75 2.06281934,10.634312 1.66934355,22.9790553 L47.3306564,22.9790553 Z" id="Oval-3"></path>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ic_experience">
+            <g id="Group-4" transform="translate(1.000000, 5.000000)">
+                <g id="Group-2" transform="translate(9.000000, 0.000000)" stroke="#000000" stroke-width="1.5">
+                    <g id="Group" transform="translate(0.000000, 3.650624)">
+                        <path d="M-2.12848909,22.9790553 L51.1284891,22.9790553 L44.7272349,28.1296791 L4.27276507,28.1296791 L-2.12848909,22.9790553 Z" id="Rectangle-2" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M47.3306564,22.9790553 C46.9371807,10.634312 36.8652121,0.75 24.5,0.75 C12.1347879,0.75 2.06281934,10.634312 1.66934355,22.9790553 L47.3306564,22.9790553 Z" id="Oval-3"></path>
+                    </g>
+                    <ellipse id="Oval-3" cx="24.5" cy="1.82531194" rx="1.81481481" ry="1.82531194"></ellipse>
                 </g>
-                <ellipse id="Oval-3" cx="24.5" cy="1.82531194" rx="1.81481481" ry="1.82531194"></ellipse>
-            </g>
-            <g id="Group-3" transform="translate(0.000000, 31.000000)">
-                <path d="M13.8321203,4.96503199 C13.8575907,4.9259044 13.883736,4.88707106 13.9105572,4.8485478 L13.7055534,5.048972 L13.8321203,4.96503199 Z M20.0832865,1.12829445 C20.8206818,0.972789577 21.8671819,0.780979208 22.07728,0.780979208 L22.07728,0.0159792219 L21.9546643,-0.739130282 L19.8343067,-0.394823699 L19.9398642,1.12509558 L20.0832865,1.12829445 Z M50.235,1.80079339 L50.9829418,1.81747537 L50.235,1.05266559 L50.235,1.80079339 Z" id="Rectangle-5" stroke="#000000" stroke-width="1.52999997"></path>
-                <rect id="Rectangle-10" fill="#FFFFFF" transform="translate(12.054545, 15.946429) rotate(-40.000000) translate(-12.054545, -15.946429) " x="3.70909091" y="7.75" width="16.6909091" height="16.3928571"></rect>
-                <polyline id="Rectangle-3" stroke="#000000" stroke-width="1.52999997" stroke-linecap="round" stroke-linejoin="round" transform="translate(12.197548, 15.277467) rotate(-35.000000) translate(-12.197548, -15.277467) " points="3.67359658 6.33850385 19.5064915 6.58702322 20.7215 22.3618054 5.10490194 24.2164297"></polyline>
+                <g id="Group-3" transform="translate(0.000000, 31.000000)">
+                    <path d="M50.8942473,2.06260251 L50.6595168,0.793549256 L20.8312316,0.793549256 L20.0011961,1.29594395 L14.4929442,4.94905276 C13.381773,6.65603041 13.5550585,8.92302349 14.9282478,10.4355566 C16.5675129,12.2411655 19.3332697,12.3559123 21.1116072,10.6927896 C22.4105232,9.47795841 23.6680832,8.33273174 24.8843279,7.25709083 L25.0462856,7.11385622 L25.2592585,7.07658694 C29.8839651,6.26728449 38.1068491,4.95801184 49.9313938,3.14813932 C50.4638229,3.066645 50.8660907,2.61175699 50.8942473,2.06260251 Z" id="Rectangle-5" stroke="#000000" stroke-width="1.52999997"></path>
+                    <rect id="Rectangle-10" fill="#FFFFFF" transform="translate(12.054545, 15.946429) rotate(-40.000000) translate(-12.054545, -15.946429) " x="3.70909091" y="7.75" width="16.6909091" height="16.3928571"></rect>
+                    <polyline id="Rectangle-3" stroke="#000000" stroke-width="1.52999997" stroke-linecap="round" stroke-linejoin="round" transform="translate(12.197548, 15.277467) rotate(-35.000000) translate(-12.197548, -15.277467) " points="3.67359658 6.33850385 19.5064915 6.58702322 20.7215 22.3618054 5.10490194 24.2164297"></polyline>
+                </g>
             </g>
         </g>
     </g>
