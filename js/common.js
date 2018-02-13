@@ -1,26 +1,26 @@
 // Form validation and send options START
 function initFormHandler() {
 
-  // Remove errors onClick
-  $('.form_input_block, input').click(function () {
-    $(this).removeClass('error, empty');
-    $(this).parent('.form_input_block').removeClass('error')
-  });
+    // Remove errors onClick
+    $('.form_input_block, input').click(function() {
+      $(this).removeClass('error, empty');
+      $(this).parent('.form_input_block').removeClass('error')
+    });
 
-  $('input').on("input propertychange", function () {
-    $(this).parent('.form_input_block').removeClass('error');
-  });
+    $('input').on("input propertychange", function() {
+      $(this).parent('.form_input_block').removeClass('error');
+    });
 
-  $('.item-option--other-input').click(function () {
-    $('.other_field_block').parent('.form_input_block').removeClass('error')
-  });
+    $('.item-option--other-input').click(function() {
+      $('.other_field_block').parent('.form_input_block').removeClass('error')
+    });
 
-  $('.item-option').click(function () {
-    $('.select_input_block').removeClass('error')
-  });
+    $('.item-option').click(function() {
+      $('.select_input_block').removeClass('error')
+    });
 
-  // Form validation function
-  $("[type=submit]").click(function (e) {
+    // Form validation function
+    $("[type=submit]").click(function (e) {
     var btn = $(this);
     var form = $(this).closest('form');
 
@@ -35,7 +35,7 @@ function initFormHandler() {
 
     var send_adress = btn.closest('form').find('[name=send_adress]').val();
 
-    $(ref).each(function () {
+    $(ref).each(function() {
       if ($(this).val() == '') {
         var errorfield = $(this);
         $(this).parent('.form_input_block').addClass('empty')
@@ -62,13 +62,13 @@ function initFormHandler() {
             $(":input.error:first").focus();
           }
         }
-        if ($('.other_field_block').hasClass('open') && $('.item-option--other-input').val() == '') {
+        if( $('.other_field_block').hasClass('open') && $('.item-option--other-input').val() == '') {
           $('.other_field_block').parent('.form_input_block').addClass('error')
         }
       }
     });
     if (!(error === 1)) {
-      $(btn).each(function () {
+      $(btn).each(function() {
         $(this).attr('disabled', true);
       });
 
@@ -77,8 +77,8 @@ function initFormHandler() {
         url: send_adress,
         dataType: 'json',
         data: msg,
-        success: function (response) {
-          setTimeout(function () {
+        success: function(response) {
+          setTimeout(function() {
             $("[name=send]").removeAttr("disabled");
           }, 1000);
           if (response.status == 'success') {
@@ -86,8 +86,9 @@ function initFormHandler() {
             window.location.href = '/success/';
           }
         },
-        error: function (error) {
+        error: function(error){
           console.log(error);
+          form.addClass('error_send')
         }
       });
     }
@@ -101,21 +102,21 @@ function initFormHandler() {
 function initMobileMenu() {
   var currentPosition = 0;
 
-  $('.account-dropdown-btn').click(function () {
-    currentPosition = $(window).scrollTop();
+  $('.account-dropdown-btn').click(function() {
+    currentPosition =  $(window).scrollTop();
     $('.nav-mob').toggleClass('open');
     $('body').addClass('unscroll').css({
       top: -currentPosition
     });
   })
 
-  $('.nav-mob .my-dropdown-menu-overlay, .nav-mob .cross-btn').click(function () {
+  $('.nav-mob .my-dropdown-menu-overlay, .nav-mob .cross-btn').click(function() {
     $('.nav-mob').removeClass('open');
     $('body').removeClass('unscroll');
     $(window).scrollTop(currentPosition);
   })
 
-  $('.for-business-dropdown, .for-restaurants-dropdown').click(function () {
+  $('.for-business-dropdown, .for-restaurants-dropdown').click(function() {
     $(this).toggleClass('open')
   })
 }
@@ -124,11 +125,11 @@ function initMobileMenu() {
 
 // Select input logic START
 function initSelect() {
-  $('.select-input').click(function () {
+  $('.select-input').click(function() {
     $('.block-item-selection').toggleClass('open')
   })
 
-  $('.block-item-selection .item-option').click(function (event) {
+  $('.block-item-selection .item-option').click(function(event) {
     $('.block-item-selection').toggleClass('open');
 
     const company_size = $(event.target).data('size');
@@ -138,7 +139,7 @@ function initSelect() {
     $('.other_field_block').removeClass('open');
   })
 
-  $('.item-option_other').click(function () {
+  $('.item-option_other').click(function() {
     $('.other_field_block').addClass('open');
     $('.block-item-selection').removeClass('open')
   })
@@ -147,12 +148,12 @@ function initSelect() {
 
 
 function initScrollEvents() {
-  if ($(window).scrollTop() > 10) {
+  if($(window).scrollTop() > 10) {
     $('.rest_page-header').addClass('scrolling');
   }
   // Header changes on scroll
-  $(window).scroll(function () {
-    if ($(window).scrollTop() > 10) {
+  $(window).scroll(function() {
+    if($(window).scrollTop() > 10) {
       $('.rest_page-header').addClass('scrolling');
     } else {
       $('.rest_page-header').removeClass('scrolling');
@@ -160,15 +161,15 @@ function initScrollEvents() {
   })
 
   // Smooth scroll to anchor
-  $('.scroll').click(function () {
+  $('.scroll').click(function(){
 
     $('html, body').animate({
-      scrollTop: $($.attr(this, 'href')).offset().top
+      scrollTop: $( $.attr(this, 'href') ).offset().top
     }, 1000);
 
     $(this).attr('disabled', true);
 
-    setTimeout(function () {
+    setTimeout(function() {
       $(this).removeAttr("disabled");
     }.bind(this), 2000)
     return false;
@@ -176,7 +177,7 @@ function initScrollEvents() {
 }
 
 jQuery(function ($) {
-  $("input[type='tel']").mask("+9 (999) 999-9999", { placeholder: " " });
+  $("input[type='tel']").mask("+9 (999) 999-9999",{placeholder:" "});
 });
 
 // =======================

@@ -648,7 +648,7 @@ input:-ms-input-placeholder {
 
 .select-input .icon {
   position: absolute;
-  top: 12px;
+  top: 15px;
   right: 15px;
   font-size: 1.5em;
   color: #999;
@@ -767,7 +767,8 @@ input:-ms-input-placeholder {
   border-color: #FF6A44; }
 
 .error .input_block_input,
-.empty .input_block_input {
+.empty .input_block_input,
+.error_send .input_block_input {
   border-color: #FF6A44; }
 
 .subscribe-form .empty.form_input_block,
