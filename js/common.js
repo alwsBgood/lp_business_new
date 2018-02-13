@@ -31,7 +31,7 @@ function initFormHandler() {
     var ref = btn.closest('form').find('[required]');
 
 
-    var msg = btn.closest('form').find('[type=text], [type=tel], [type=email], [name=found_us], textarea');
+    var msg = btn.closest('form').find('[type=text], [type=tel], [type=email], [name=company_size], textarea');
 
     var send_adress = btn.closest('form').find('[name=send_adress]').val();
 
@@ -134,8 +134,10 @@ function initSelect() {
   $('.block-item-selection .item-option').click(function(event) {
     $('.block-item-selection').toggleClass('open');
 
+    const company_size = $(event.target).data('size');
+
     $('.select_input-placeholder span').html(event.target.textContent);
-    $('[name=found_us]').val(event.target.textContent)
+    $('[name=company_size]').val(company_size)
     $('.other_field_block').removeClass('open');
   })
 
