@@ -182,7 +182,8 @@ a {
 /*BUTTONS - END*/
 .success-page {
   line-height: 1.5;
-  min-height: 100vh; }
+  min-height: 100vh;
+  padding-bottom: 400px; }
 
 .success-page footer {
   position: absolute;
@@ -250,6 +251,18 @@ a {
   cursor: pointer;
   color: #ff6a44;
   text-decoration: none; }
+
+@media only screen and (max-width: 980px) {
+  .success-page {
+    padding-bottom: 440px; } }
+
+@media only screen and (max-width: 690px) {
+  .success-page {
+    padding-bottom: 500px; } }
+
+@media only screen and (max-width: 550px) {
+  .success-page {
+    padding-bottom: 780px; } }
 
 /*============== reusable - start ==============*/
 .text--orange {
