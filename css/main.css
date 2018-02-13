@@ -1643,7 +1643,6 @@ input:-ms-input-placeholder {
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
-    position: relative;
     margin: 7px; }
     .business_page-block_06 .city-item .city_img {
       min-height: 80px;
