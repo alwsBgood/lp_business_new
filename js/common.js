@@ -83,10 +83,7 @@ function initFormHandler() {
           }, 1000);
           if (response.status == 'success') {
             $('form').trigger("reset");
-            form.addClass('submited');
-            if(form.data('formType') === 'redirect_form') {
-              window.location.href = '/success/';
-            }
+            window.location.href = '/success/';
           }
         },
         error: function(error){

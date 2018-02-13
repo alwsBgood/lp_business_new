@@ -393,7 +393,9 @@ a {
     stroke-color: #fff; }
 
 .rest_page-header.scrolling {
-  background-color: #fff; }
+  background-color: #fff;
+  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.12); }
   .rest_page-header.scrolling .nav_list a {
     color: #6e6e6e;
     text-shadow: none; }
@@ -430,7 +432,8 @@ a {
       width: 40px;
       overflow: hidden; }
       .rest_page-header .logo .logo-link {
-        font-size: 24px; }
+        font-size: 24px;
+        margin: auto; }
     .rest_page-header .mobile-nav-btn {
       display: block;
       margin-left: 0; }
