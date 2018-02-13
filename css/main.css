@@ -1649,7 +1649,8 @@ input:-ms-input-placeholder {
       min-height: 80px;
       width: 100%; }
   .business_page-block_06 .city_name {
-    position: absolute; }
+    position: absolute;
+    margin: auto; }
   .business_page-block_06 .form_wrapper {
     background-color: #fff;
     padding: 50px 65px 50px 45px;
