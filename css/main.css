@@ -320,7 +320,9 @@ input:-ms-input-placeholder {
 .input_block_input,
 .input_block_btn {
   padding: 12px;
-  font-size: 16px; }
+  font-size: 16px;
+  -webkit-box-shadow: none;
+  box-shadow: none; }
 
 .input_block_input:hover,
 .input_block_input:focus,
