@@ -181,7 +181,14 @@ a {
 
 /*BUTTONS - END*/
 .success-page {
-  line-height: 1.5; }
+  line-height: 1.5;
+  min-height: 100vh; }
+
+.success-page footer {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0; }
 
 .success_page_content {
   background: #fff;
