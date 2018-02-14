@@ -429,7 +429,9 @@ html{font-size:14px;height:100%;-webkit-text-size-adjust:100%;font-size-adjust:1
                 <div class="footer-column footer-column--allset">
                     <div class="footer-column_title">ALLSET</div>
                     <ul class="footer-column_list">
-                        <li><a href="./faq/" class="footer-column_list-item">FAQ</a></li>
+                        <li>
+                            <a href="./faq/" class="footer-column_list-item">FAQ</a>
+                        </li>
                         <li>
                             <a class="footer-column_list-item" href="./about/">About</a>
                         </li>
@@ -633,6 +635,9 @@ html{font-size:14px;height:100%;-webkit-text-size-adjust:100%;font-size-adjust:1
                         <p>Enter your mobile number and we'll send you a download link.</p>
     
                         <form class="tel-form validate_form">
+                            <!-- Hidden required fields satrt -->
+                            <input type="hidden" name="send_adress" value="/api/user/v1/send-link-download/">
+                            <!-- Hidden required fields end -->
                             <div class="input_block input_block_with_btn flexbox">
                                 <div class="input_block_input flexbox align-items-center input_tel-block">
                                     <div class="country-code-selectbox my-selectbox my-dropdown value-selectbox flex-shrink-none" data-modal="country-code-gap" id="country-code-gap">
