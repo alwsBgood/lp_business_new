@@ -1106,6 +1106,12 @@ input:-ms-input-placeholder {
   text-transform: uppercase;
   font-family: "GothamProMedium",  Arial, Helvetica, sans-serif; }
 
+.get-app-modal .app-btn .icon {
+  color: #ff615d; }
+
+.get-app-modal .btn-close .icon {
+  color: #ccc; }
+
 .get-app-modal .app-btn span {
   vertical-align: middle; }
 

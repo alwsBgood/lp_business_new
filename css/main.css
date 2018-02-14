@@ -840,6 +840,12 @@ input:-ms-input-placeholder {
   text-transform: uppercase;
   font-family: "GothamProMedium",  Arial, Helvetica, sans-serif; }
 
+.get-app-modal .app-btn .icon {
+  color: #ff615d; }
+
+.get-app-modal .btn-close .icon {
+  color: #ccc; }
+
 .get-app-modal .app-btn span {
   vertical-align: middle; }
 
@@ -1430,15 +1436,13 @@ input:-ms-input-placeholder {
     margin: -65px auto 0; }
   .business_page-block_03 .step_wrapper-1 .step-img {
     margin-right: 45px; }
-  .business_page-block_03 .step_wrapper-2 {
-    margin-top: 50px; }
-    .business_page-block_03 .step_wrapper-2 .step_descr {
-      margin: -65px auto 0; }
-    .business_page-block_03 .step_wrapper-2 .step-img {
-      margin-right: 30px;
-      margin-left: 60px; }
+  .business_page-block_03 .step_wrapper-2 .step_descr {
+    margin: -65px auto 0; }
+  .business_page-block_03 .step_wrapper-2 .step-img {
+    margin-right: 30px;
+    margin-left: 60px; }
   .business_page-block_03 .step_wrapper-3 .step_descr {
-    margin: -80px auto 0; }
+    margin: -120px auto 0; }
   .business_page-block_03 .step_wrapper-3 .step-img {
     margin-right: 45px; }
 
@@ -1448,7 +1452,9 @@ input:-ms-input-placeholder {
     .business_page-block_03 .step_wrapper .step_descr {
       font-size: 18px; }
       .business_page-block_03 .step_wrapper .step_descr br {
-        display: none; } }
+        display: none; }
+  .business_page-block_03 .step_wrapper-3 .step_descr {
+    margin: -50px auto 0; } }
 
 @media only screen and (max-width: 860px) {
   .business_page-block_03 .step_wrapper .step-img {

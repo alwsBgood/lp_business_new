@@ -104,7 +104,7 @@ function initMobileMenu() {
 
   $('.account-dropdown-btn').click(function() {
     currentPosition =  $(window).scrollTop();
-    $('.nav-mob').toggleClass('open');
+    $('.nav-mob').addClass('open');
     $('body').addClass('unscroll').css({
       top: -currentPosition
     });
@@ -121,6 +121,27 @@ function initMobileMenu() {
   })
 }
 // Mobile menu events END
+
+//Get App Modal SATRT
+function initGetAppModal() {
+  var currentPosition = 0;
+
+  $('.link-app-btn').click(function() {
+    currentPosition =  $(window).scrollTop();
+    $('.get-app-modal').addClass('open');
+    $('.nav-mob').removeClass('open');
+    $('body').addClass('unscroll').css({
+      top: -currentPosition
+    });
+  })
+
+  $('.get-app-modal .btn-close').click(function() {
+    $('.get-app-modal').removeClass('open');
+    $('body').removeClass('unscroll');
+    $(window).scrollTop(currentPosition);
+  })
+}
+//Get App Modal END
 
 
 // Select input logic START
@@ -184,4 +205,5 @@ jQuery(function ($) {
 initSelect();
 initScrollEvents();
 initFormHandler();
-initMobileMenu()
+initMobileMenu();
+initGetAppModal();
