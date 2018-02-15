@@ -83,7 +83,9 @@ function initFormHandler() {
           }, 1000);
           if (response.status == 'success') {
             $('form').trigger("reset");
-            window.location.href = '/success/';
+            if(form.data('formType') === 'redirect_form') {
+              window.location.href = '/success/';
+            }
           }
         },
         error: function(error){
@@ -198,7 +200,7 @@ function initScrollEvents() {
 }
 
 jQuery(function ($) {
-  $("input[type='tel']").mask("+9 (999) 999-9999",{placeholder:" "});
+  $("input[type='tel']").mask("(999) 999-9999",{placeholder:" "});
 });
 
 // =======================

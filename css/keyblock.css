@@ -257,6 +257,11 @@ a {
       -webkit-text-size-adjust: 100%;
       -webkit-font-smoothing: antialiased;
       -moz-osx-font-smoothing: antialiased; }
+  .business_page-block_01 .mobile_pomo_text {
+    padding-left: 5px;
+    font-size: 10px;
+    line-height: 11px;
+    display: none; }
   .business_page-block_01 .main_header {
     font-size: 45px;
     text-shadow: 0 2px 21px rgba(0, 0, 0, 0.42);
@@ -340,7 +345,12 @@ a {
       font-family: "GothamProLight", sans-serif; }
     .business_page-block_01 .new_press_logo img {
       width: 100%;
-      padding: 0 5px; } }
+      padding: 0 5px; }
+    .business_page-block_01 .mobile_pomo_text {
+      padding-left: 10px;
+      display: inline-block; }
+    .business_page-block_01 .promo_wrapper .promo_text {
+      display: none; } }
 
 @media screen and (max-width: 450px) {
   .business_page-block_01 .main_header-descr {
